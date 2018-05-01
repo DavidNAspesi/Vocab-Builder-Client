@@ -1,0 +1,6 @@
+node_modules
+cypress
+.firebaserc
+404.html
+cypress.json
+firebase.json

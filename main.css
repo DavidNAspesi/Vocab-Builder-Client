@@ -1,0 +1,57 @@
+body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: lightgray;
+    height: 100vh;
+}
+
+button {
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    margin: auto;
+}
+
+img {
+    width: 40%;
+    margin: auto;
+}
+
+.descriptionWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionP {
+    width: 50%;
+    text-align: center;
+}
+
+.exampleDiv {
+    color: #53A5F4;
+}
+
+.randomWordPara:first-letter {
+    text-transform: capitalize;
+}
+
+.partOfSpeech {
+    color: #53A5F4;
+}
+
+.partOfSpeech:first-letter {
+    text-transform: capitalize;
+}
+
+footer {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
