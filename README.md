@@ -14,7 +14,7 @@ Once cloned, navigate into project directory and run `lite-server`.  Project sho
 
 ## Contact the author:
 
-[GitHub](https://github.com/DavidNAspesi/)
-[LinkedIn](https://www.linkedin.com/in/davidnaspesi/)
+[GitHub](https://github.com/DavidNAspesi/)  
+[LinkedIn](https://www.linkedin.com/in/davidnaspesi/)  
 DavidNAspesi@gmail.com
 
