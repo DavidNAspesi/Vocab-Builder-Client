@@ -1,6 +1,6 @@
-### [Deployed App] (http://vocabbuilder.surge.sh/)
+# Vocab Builder
 
-## Project Description
+[Deployed App](http://vocabbuilder.surge.sh/)
 
 The Vocab Builder is a simple front-end vocabulary studying application.  Using the wordnik API, click the "Generate a word!" button.  If you do not know the word, click it to generate up to 3 definitions.  For context, you may also click the "Do you want to see an example?" button, which in turn generates up to two uses of the current word in a sentence!
 
