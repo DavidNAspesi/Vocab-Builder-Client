@@ -4,7 +4,7 @@ const definitionDiv = document.querySelector(".definitionDiv")
 const exampleGenerator = document.querySelector(".exampleGenerator")
 const exampleDiv = document.querySelector(".exampleDiv")
 const partOfSpeech = document.querySelector(".partOfSpeech")
-const wordURL = "http://api.wordnik.com:80/v4/words.json/randomWord?hasDictionaryDef=true&excludePartOfSpeech=noun-plural&minCorpusCount=0&maxCorpusCount=-1&minDictionaryCount=1&maxDictionaryCount=-1&minLength=6&maxLength=-1&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5"
+const wordURL = "http://api.wordnik.com:80/v4/words.json/randomWord?hasDictionaryDef=true&excludePartOfSpeech=noun-plural&minCorpusCount=0&maxCorpusCount=-1&minDictionaryCount=1&maxDictionaryCount=-1&minLength=6&maxLength=-1&api_key=2f1941cdb7de05af0600a0250270d2e19c64a55f1ff315489"
 let definitionURL = ""
 let exampleURL = ""
 
@@ -20,8 +20,8 @@ wordGenerator.addEventListener("click", () => {
 })
 
 function changeWord(word) {
-    definitionURL = "http://api.wordnik.com:80/v4/word.json/" + word + "/definitions?limit=200&includeRelated=false&sourceDictionaries=all&useCanonical=true&includeTags=false&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5"
-    exampleURL = "http://api.wordnik.com:80/v4/word.json/" + word + "/examples?includeDuplicates=false&useCanonical=true&skip=0&limit=2&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5"
+    definitionURL = "http://api.wordnik.com:80/v4/word.json/" + word + "/definitions?limit=200&includeRelated=false&sourceDictionaries=all&useCanonical=true&includeTags=false&api_key=2f1941cdb7de05af0600a0250270d2e19c64a55f1ff315489"
+    exampleURL = "http://api.wordnik.com:80/v4/word.json/" + word + "/examples?includeDuplicates=false&useCanonical=true&skip=0&limit=2&api_key=2f1941cdb7de05af0600a0250270d2e19c64a55f1ff315489"
 }
 
 function clearScreen() {
